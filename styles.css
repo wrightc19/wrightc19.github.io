@@ -97,6 +97,21 @@ a:hover
     margin-right: 10px;
 }
 
+.image_evo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image_evo img
+{
+    max-width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
 .evo_list
 {
     border-bottom: 2px solid #000;
