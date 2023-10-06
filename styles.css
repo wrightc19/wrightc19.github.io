@@ -1,0 +1,152 @@
+body
+{
+    margin: 0;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.banner
+{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.center_square
+{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    margin: 20px auto;
+}
+
+h1
+{
+    font-size: 24px;
+    margin: 50px;
+}
+
+a
+{
+    color: #ff4500;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.top_links
+{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top_links a
+{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.top_links a:hover
+{
+    text-decoration: underline;
+}
+
+.image_mazda
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image_mazda img
+{
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.image_pontiac
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image_pontiac img
+{
+    max-width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.evo_list
+{
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+.evo_list li:last-child
+{
+    margin-bottom: 30px;
+}
+
+.evo_meme
+{
+    display: flex;
+    align-items: center;
+}
+
+.evo_meme p
+{
+    max-width: 10%;
+    margin-right: 20px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+.description
+{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.description h2
+{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description h3
+{
+    text-align: center;
+}
+
+.description h4
+{
+    text-align: center;
+    font-size: 10px;
+}
