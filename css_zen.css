@@ -5,7 +5,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Your Elegant Cursive Font', cursive;
+    font-family: cursive;
     font-size: 22px;
     color: #FFF;
     text-align: center;
@@ -55,6 +55,6 @@ body
     display: inline-block;
     text-align: center;
     padding: 10px;
-    font-family: 'Your Elegant Cursive Font', cursive;
+    font-family: cursive;
     color: #BF0A30;
 }
