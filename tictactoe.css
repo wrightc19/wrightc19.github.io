@@ -1,0 +1,71 @@
+body
+{
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#ttt_grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.cell
+{
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cell.taken
+{
+    cursor: not-allowed;
+    animation: cellClickAnimation 0.5s ease;
+}
+
+#game_status, #scoreboard, button
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button
+{
+    background-color: #777;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover
+{
+    background-color: #999;
+}
+
+@keyframes cellClickAnimation
+{
+    0%
+    {
+        transform: scale(1);
+    }
+
+    50%
+    {
+        transform: scale(1.1);
+    }
+
+    100%
+    {
+        transform: scale(1);
+    }
+}
